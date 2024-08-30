@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
 * {
   padding: 0;
@@ -27,12 +27,12 @@ ol {
 
 #question1 {
   background: #ddd;
-  border: 1px solid black;
+  border: 1px solid red;
   display: inline-block;
 }
 
 #solution {
-  background: #ffd400;
+  background: #0000FF;
   display: inline-block;
   padding: 1rem;
   margin: 1rem;
