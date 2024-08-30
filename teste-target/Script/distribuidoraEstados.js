@@ -1,4 +1,4 @@
-export default function stateShare() {
+export default function distribuidoraEstados() {
     const data = {
       SP: 67836.43,
       RJ: 36678.66,

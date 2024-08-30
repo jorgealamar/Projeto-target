@@ -1,4 +1,4 @@
-export default function sumResult() {
+export default function resutadoSoma() {
     let i = 13;
     let soma = 0;
     let k = 0;
@@ -7,5 +7,5 @@ export default function sumResult() {
       k = k + 1;
       soma = soma + k;
     }
-    document.getElementById('sumResult').innerText = soma;
+    document.getElementById('resultadoSoma').innerText = soma;
   }

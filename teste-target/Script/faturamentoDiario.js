@@ -1,4 +1,4 @@
-export default async function fetchData() {
+export default async function faturamentoDiario() {
     const res = await fetch('./dados.json');
     const data = await res.json();
     handleData(data);

@@ -1,13 +1,13 @@
-export default function reverseWord() {
+export default function stringInvertida() {
     const result = document.getElementById('resultReverse');
     const wordInput = document.getElementById('wordInput');
     const word = wordInput.value;
   
-    let reversedWord = '';
+    let stringInvertida = '';
     for (let i = word.length - 1; i >= 0; i--) {
-      reversedWord += word[i];
+      stringInvertida += word[i];
     }
-    result.textContent = reversedWord;
+    result.textContent = stringInvertida;
   }
   const button = document.getElementById('reverseButton');
-  button.addEventListener('click', reverseWord);
+  button.addEventListener('click', stringInvertida);

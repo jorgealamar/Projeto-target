@@ -1,11 +1,12 @@
-import sumResult from './scripts/sumResult.js';
-import isFibonacci from './scripts/isFibonacci.js';
-import billStatus from './scripts/billStatus.js';
-import stateShare from './scripts/stateShare.js';
-import reverseWord from './scripts/reverseWord.js';
+import resutadoSoma from './Script/resultadoSoma.js';
+import dadosFibbonacci from './Script/dadosFibonacci.js';
+import faturamentoDiario from './Script/faturamentoDiario.js';
+import distribuidoraEstados from './Script/distribuidoraEstados.js';
+import stringInvertida from './Script/stringInvertida.js';
 
-sumResult();
-isFibonacci();
-billStatus();
-stateShare();
-reverseWord();
+
+resutadoSoma();
+dadosFibbonacci();
+faturamentoDiario();
+distribuidoraEstados();
+stringInvertida();

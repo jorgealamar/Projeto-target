@@ -1,4 +1,4 @@
-export default function isFibbonacci(num) {
+export default function dadosFibbonacci(num) {
     let fib1 = 0;
     let fib2 = 1;
     while (fib2 < num) {
@@ -15,7 +15,7 @@ export default function isFibbonacci(num) {
     const num = parseInt(numberInput.value);
     if (isNaN(num)) {
       result.textContent = 'Por favor, digite um número válido';
-    } else if (isFibbonacci(num)) {
+    } else if (dadosFibbonacci(num)) {
       result.textContent = `O número ${num} faz parte da sequência de Fibonacci`;
     } else {
       result.textContent = `O número ${num} não faz parte da sequência de Fibonacci`;
